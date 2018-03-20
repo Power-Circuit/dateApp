@@ -1,0 +1,29 @@
+page-login {
+  .getstart{
+    background-image: url('../imgs/1.jpg');
+    background-repeat: no repeat;
+    background-size: cover;
+  }
+
+  .scroll-content{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+  }
+  ion-card.loginCard{
+    box-shadow: none;
+    background: rgba(300,0,0,0.7);
+    border-readius: 10px;
+  }
+
+  ion-card-header.card-header{
+    color: #45f;
+  }
+
+  ion-list.list{
+    background-color: rgba(0,0,0,0.5);
+  }
+}
